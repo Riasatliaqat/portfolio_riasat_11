@@ -1,0 +1,75 @@
+import { SkillCategory } from '../types';
+
+export const skillCategories: SkillCategory[] = [
+  {
+    name: 'Python',
+    description: 'Data wrangling, exploratory data analysis, and workflow automation',
+    iconName: 'python',
+    skills: [
+      'pandas',
+      'NumPy',
+      'Matplotlib',
+      'Seaborn',
+      'Jupyter Notebook',
+      'openpyxl',
+      'Data cleaning scripts',
+      'Automation scripts',
+    ],
+  },
+  {
+    name: 'Power BI',
+    description: 'Enterprise data modelling, custom measures, and interactive reporting',
+    iconName: 'barChart',
+    skills: [
+      'DAX measures',
+      'Data modelling (star schema)',
+      'Table relationships',
+      'Interactive dashboards',
+      'Slicers & filters',
+      'Drill-through reporting',
+      'Power BI Service publishing',
+    ],
+  },
+  {
+    name: 'Excel & Power Query',
+    description: 'Advanced data preparation, formula logic, and workbook automation',
+    iconName: 'sheet',
+    skills: [
+      'Power Query (ETL)',
+      'Merge & append queries',
+      'Data transformations',
+      'PivotTables',
+      'XLOOKUP & INDEX-MATCH',
+      'Advanced formulas',
+      'Dynamic dashboards',
+      'Data validation',
+    ],
+  },
+  {
+    name: 'SQL',
+    description: 'Relational querying, dataset aggregation, and schema normalization',
+    iconName: 'database',
+    skills: [
+      'MySQL',
+      'Relational joins',
+      'Subqueries',
+      'Common Table Expressions (CTEs)',
+      'Window functions',
+      'Aggregations',
+      'Database views',
+      'Database design & normalization',
+    ],
+  },
+  {
+    name: 'Analytical Tools & Workflows',
+    description: 'Collaborative development, reporting automation, and AI workflows',
+    iconName: 'code',
+    skills: [
+      'Git & Version Control',
+      'Data visualization best practices',
+      'Report automation',
+      'AI-assisted analysis',
+      'Turnaround tracking',
+    ],
+  },
+];
